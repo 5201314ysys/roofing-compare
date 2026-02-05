@@ -1,0 +1,452 @@
+[
+  {
+    "id": "WkFDSEVS",
+    "initial": "Z",
+    "name": "ZACHER, PAUL K",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$14,918",
+    "contractorPrice": "$12,680",
+    "jobCount": 705
+  },
+  {
+    "id": "SE9MTUVT",
+    "initial": "H",
+    "name": "HOLMES, WELLS L",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$20,216",
+    "contractorPrice": "$17,184",
+    "jobCount": 463
+  },
+  {
+    "id": "V0FSRCwg",
+    "initial": "W",
+    "name": "WARD, JON P",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$17,730",
+    "contractorPrice": "$15,071",
+    "jobCount": 250
+  },
+  {
+    "id": "QURBTVMs",
+    "initial": "A",
+    "name": "ADAMS, JAMES ADRIAN",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$21,212",
+    "contractorPrice": "$18,030",
+    "jobCount": 108
+  },
+  {
+    "id": "RVNLQU5E",
+    "initial": "E",
+    "name": "ESKANDANIAN, PAYMON",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$18,446",
+    "contractorPrice": "$15,679",
+    "jobCount": 104
+  },
+  {
+    "id": "SEFOTkEs",
+    "initial": "H",
+    "name": "HANNA, JOHN C",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$952,934",
+    "contractorPrice": "$809,994",
+    "jobCount": 82
+  },
+  {
+    "id": "Ty5BLksu",
+    "initial": "O",
+    "name": "O.A.K.K. CONSTRUCTION CO., INC.",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$402,703",
+    "contractorPrice": "$342,298",
+    "jobCount": 61
+  },
+  {
+    "id": "Q09YLCBN",
+    "initial": "C",
+    "name": "COX, MICHAEL S",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$577,436",
+    "contractorPrice": "$490,821",
+    "jobCount": 33
+  },
+  {
+    "id": "Qk9FSE0g",
+    "initial": "B",
+    "name": "BOEHM CHRISTOPHER G",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$976,265",
+    "contractorPrice": "$829,825",
+    "jobCount": 31
+  },
+  {
+    "id": "QUwgSEFS",
+    "initial": "A",
+    "name": "AL HARASH, MOHAMED T",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$22,444",
+    "contractorPrice": "$19,077",
+    "jobCount": 27
+  },
+  {
+    "id": "TUFHREFO",
+    "initial": "M",
+    "name": "MAGDAN CONSTRUCTION INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$40,905",
+    "contractorPrice": "$34,769",
+    "jobCount": 21
+  },
+  {
+    "id": "UElFUEVS",
+    "initial": "P",
+    "name": "PIEPER ELECTRIC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$5,289",
+    "contractorPrice": "$4,496",
+    "jobCount": 19
+  },
+  {
+    "id": "Q0xBUksg",
+    "initial": "C",
+    "name": "CLARK ROOFING COMPANY",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$246,654",
+    "contractorPrice": "$209,656",
+    "jobCount": 18
+  },
+  {
+    "id": "TUFIQUtB",
+    "initial": "M",
+    "name": "MAHAKALI, PRASHANTH K",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$299,611",
+    "contractorPrice": "$254,669",
+    "jobCount": 18
+  },
+  {
+    "id": "Q0FJUk8g",
+    "initial": "C",
+    "name": "CAIRO & SONS ROOFING CO., INC. DBA CSR ROOFING CON",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$177,795",
+    "contractorPrice": "$151,126",
+    "jobCount": 18
+  },
+  {
+    "id": "WVVSSUFO",
+    "initial": "Y",
+    "name": "YURIANTO, YURIANTO",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$15,063",
+    "contractorPrice": "$12,804",
+    "jobCount": 17
+  },
+  {
+    "id": "SEVVU0RF",
+    "initial": "H",
+    "name": "HEUSDENS, LEIGH A",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$50,438",
+    "contractorPrice": "$42,872",
+    "jobCount": 16
+  },
+  {
+    "id": "UkFJTkNP",
+    "initial": "R",
+    "name": "RAINCOAT ROOFING SYSTEMS INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$58,980",
+    "contractorPrice": "$50,133",
+    "jobCount": 16
+  },
+  {
+    "id": "UllBTiwg",
+    "initial": "R",
+    "name": "RYAN, MICHAEL T",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$26,333",
+    "contractorPrice": "$22,383",
+    "jobCount": 15
+  },
+  {
+    "id": "U0FGRSBB",
+    "initial": "S",
+    "name": "SAFE AT HOME CONSTRUCTION",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$26,983",
+    "contractorPrice": "$22,936",
+    "jobCount": 15
+  },
+  {
+    "id": "QlJJQU4g",
+    "initial": "B",
+    "name": "BRIAN K PETERSEN",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$22,357",
+    "contractorPrice": "$19,003",
+    "jobCount": 14
+  },
+  {
+    "id": "U0lNT1ZJ",
+    "initial": "S",
+    "name": "SIMOVIC, LASZLO",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$100,555",
+    "contractorPrice": "$85,472",
+    "jobCount": 12
+  },
+  {
+    "id": "RFJBUFNa",
+    "initial": "D",
+    "name": "DRAPSZO, VICTOR",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$484,467",
+    "contractorPrice": "$411,797",
+    "jobCount": 12
+  },
+  {
+    "id": "QkFTU0FN",
+    "initial": "B",
+    "name": "BASSAM, ASA",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$11,330",
+    "contractorPrice": "$9,631",
+    "jobCount": 10
+  },
+  {
+    "id": "UFJFTUlF",
+    "initial": "P",
+    "name": "PREMIER CONTRACTORS INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$1,531,106",
+    "contractorPrice": "$1,301,440",
+    "jobCount": 10
+  },
+  {
+    "id": "RS5ELkUu",
+    "initial": "E",
+    "name": "E.D.E. ELECTRIC,INC.",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$9,551",
+    "contractorPrice": "$8,118",
+    "jobCount": 9
+  },
+  {
+    "id": "RE1HIEhP",
+    "initial": "D",
+    "name": "DMG HOME SERVICES LLC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$27,966",
+    "contractorPrice": "$23,771",
+    "jobCount": 9
+  },
+  {
+    "id": "TUFHREFO",
+    "initial": "M",
+    "name": "MAGDAN HOME IMPROVEMENT, INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$38,185",
+    "contractorPrice": "$32,457",
+    "jobCount": 8
+  },
+  {
+    "id": "REVFUkZJ",
+    "initial": "D",
+    "name": "DEERFIELD CONSTRUCTION GROUP",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$25,500",
+    "contractorPrice": "$21,675",
+    "jobCount": 8
+  },
+  {
+    "id": "VkFSSSwg",
+    "initial": "V",
+    "name": "VARI, RONALD",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$189,500",
+    "contractorPrice": "$161,075",
+    "jobCount": 8
+  },
+  {
+    "id": "U0hPV0FM",
+    "initial": "S",
+    "name": "SHOWALTER ROOFING SERVICES INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$47,977",
+    "contractorPrice": "$40,780",
+    "jobCount": 8
+  },
+  {
+    "id": "R09MREZJ",
+    "initial": "G",
+    "name": "GOLDFINCH CONSTRUCTION LLC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$75,104",
+    "contractorPrice": "$63,838",
+    "jobCount": 7
+  },
+  {
+    "id": "S09aSU9M",
+    "initial": "K",
+    "name": "KOZIOL FREDERICK E",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$165,071",
+    "contractorPrice": "$140,310",
+    "jobCount": 7
+  },
+  {
+    "id": "UElUQ0gg",
+    "initial": "P",
+    "name": "PITCH CONCEPTS LLC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$6,857",
+    "contractorPrice": "$5,828",
+    "jobCount": 7
+  },
+  {
+    "id": "REFTU0Us",
+    "initial": "D",
+    "name": "DASSE, CHRISTOPHER M",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$564,286",
+    "contractorPrice": "$479,643",
+    "jobCount": 7
+  },
+  {
+    "id": "RlJFRURP",
+    "initial": "F",
+    "name": "FREEDOM FOREVER ILLINOIS LLC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$23,577",
+    "contractorPrice": "$20,040",
+    "jobCount": 6
+  },
+  {
+    "id": "TU9OVEdP",
+    "initial": "M",
+    "name": "MONTGOMERY, THOMAS C",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$9,833",
+    "contractorPrice": "$8,358",
+    "jobCount": 6
+  },
+  {
+    "id": "Sk9ITiBM",
+    "initial": "J",
+    "name": "JOHN LYLE & ASSOCIATES",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$836,748",
+    "contractorPrice": "$711,236",
+    "jobCount": 6
+  },
+  {
+    "id": "QlVSTkhB",
+    "initial": "B",
+    "name": "BURNHAM NATIONWIDE, INC.",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$382,438",
+    "contractorPrice": "$325,072",
+    "jobCount": 6
+  },
+  {
+    "id": "SkFTIENP",
+    "initial": "J",
+    "name": "JAS CONSTRUCTION AND ROOFING INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$12,167",
+    "contractorPrice": "$10,342",
+    "jobCount": 6
+  },
+  {
+    "id": "S09LQUxJ",
+    "initial": "K",
+    "name": "KOKALIAS, BILL G",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$256,775",
+    "contractorPrice": "$218,259",
+    "jobCount": 6
+  },
+  {
+    "id": "SUdMRVNL",
+    "initial": "I",
+    "name": "IGLESKI, MARK W",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$2,466,667",
+    "contractorPrice": "$2,096,667",
+    "jobCount": 6
+  },
+  {
+    "id": "V0FMTElO",
+    "initial": "W",
+    "name": "WALLIN, DONALD J",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$546,000",
+    "contractorPrice": "$464,100",
+    "jobCount": 5
+  },
+  {
+    "id": "U0VDT05E",
+    "initial": "S",
+    "name": "SECOND CITY CONSTRUCTION CO., INC.",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$38,940",
+    "contractorPrice": "$33,099",
+    "jobCount": 5
+  },
+  {
+    "id": "QkVOSkFN",
+    "initial": "B",
+    "name": "BENJAMIN, JAMES A",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$126,000",
+    "contractorPrice": "$107,100",
+    "jobCount": 5
+  },
+  {
+    "id": "U1RBVEUg",
+    "initial": "S",
+    "name": "STATE RESTORATION SERVICES INC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$8,265",
+    "contractorPrice": "$7,025",
+    "jobCount": 5
+  },
+  {
+    "id": "T1dORVIg",
+    "initial": "O",
+    "name": "OWNER ACTING AS OWN PLUMBER",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$89,247",
+    "contractorPrice": "$75,860",
+    "jobCount": 5
+  },
+  {
+    "id": "SE9MTUFO",
+    "initial": "H",
+    "name": "HOLMAN AND NACHTWEY COMPANY",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$27,224",
+    "contractorPrice": "$23,140",
+    "jobCount": 5
+  },
+  {
+    "id": "TUFSVElO",
+    "initial": "M",
+    "name": "MARTINI ELECTRIC",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$12,466",
+    "contractorPrice": "$10,596",
+    "jobCount": 5
+  },
+  {
+    "id": "UE9QJ1Mg",
+    "initial": "P",
+    "name": "POP'S ELECTRICAL INC.",
+    "verified": "Feb 4, 2026",
+    "avgQuote": "$3,220",
+    "contractorPrice": "$2,737",
+    "jobCount": 5
+  }
+]
