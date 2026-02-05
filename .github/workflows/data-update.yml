@@ -1,0 +1,108 @@
+name: Scheduled Data Update
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      update_type:
+        description: 'Type of update to run'
+        required: true
+        default: 'incremental'
+        type: choice
+        options:
+          - incremental
+          - full
+          - discovery
+
+env:
+  NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+  GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+  YELP_API_KEY: ${{ secrets.YELP_API_KEY }}
+  OPENCORPORATES_API_KEY: ${{ secrets.OPENCORPORATES_API_KEY }}
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # Ensure we finish before next scheduled run
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          cd python-scraper
+          pip install -r requirements.txt
+      
+      - name: Run incremental update
+        if: github.event.inputs.update_type != 'full' && github.event.inputs.update_type != 'discovery'
+        run: |
+          cd python-scraper
+          python -c "
+          import asyncio
+          from data_scheduler import DataSyncManager
+
+          async def run():
+              manager = DataSyncManager()
+              try:
+                  result = await manager.run_update_cycle()
+                  print(f'Updated {result} companies')
+              finally:
+                  await manager.close()
+
+          asyncio.run(run())
+          "
+      
+      - name: Run full refresh
+        if: github.event.inputs.update_type == 'full'
+        run: |
+          cd python-scraper
+          python -c "
+          import asyncio
+          from data_scheduler import DataScheduler
+
+          async def run():
+              scheduler = DataScheduler()
+              await scheduler._run_deep_refresh()
+              await scheduler.sync_manager.close()
+
+          asyncio.run(run())
+          "
+      
+      - name: Run company discovery
+        if: github.event.inputs.update_type == 'discovery'
+        run: |
+          cd python-scraper
+          python -c "
+          import asyncio
+          from data_scheduler import DataSyncManager
+
+          async def run():
+              manager = DataSyncManager()
+              states = ['CA', 'TX', 'NY', 'FL', 'IL']
+              industries = ['roofing', 'construction', 'plumbing']
+              
+              for state in states:
+                  for industry in industries:
+                      await manager.discover_new_companies(industry, state)
+                      await asyncio.sleep(30)
+              
+              await manager.close()
+
+          asyncio.run(run())
+          "
+      
+      - name: Report status
+        if: always()
+        run: |
+          echo "Data update completed at $(date)"
+          echo "Update type: ${{ github.event.inputs.update_type || 'scheduled' }}"
